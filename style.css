@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 3.5rem;
+    padding-bottom: 20px;
+    color: #ee8972;
+}
+
+#showcase {
+    background-image: url(pexels-eternal-happiness-3326362.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px 30px;
+}
+
+#showcase p {
+    font-size: 1.2rem;
+    color: #d15a7c;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 1rem 2rem;
+    margin-top: 20px;
+    color: #ee8972;
+    border: 1px solid #ee8972
+}
+
+.btn:hover {
+    color: #fff;
+    background-color: #ee8972;
+}
+
+#section-1 {
+    background-color: #ee8972;
+    text-align: center;
+    padding: 20px 30px;
+    color: #fff;
+}
+
+#section-2 {
+    background-color: #d15a7c;
+    text-align: center;
+    padding: 20px 30px;
+    color: #fff;
+}
+
+#section-3 {
+    display: flex;
+    text-align: center;
+}
+
+.box-1, .box-3 {
+    background-color: #ee8972;
+    padding: 20px 30px;
+    color: #fff;
+}
+
+.box-2 {
+    background-color: #d15a7c;
+    padding: 20px 30px;
+    color: #fff;
+}
+
+#section-4 {
+    background-color: #f6eec7;
+    color: #d15a7c;
+    text-align: center;
+    padding: 20px 30px;
+}
+
+#section-5 {
+    color: #f6eec7;
+    background-color: #d15a7c;
+    text-align: center;
+    padding: 20px 30px;
+}
